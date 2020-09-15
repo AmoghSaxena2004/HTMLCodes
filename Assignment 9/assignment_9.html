@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 9</title>
+</head>
+<body bgcolor="#0ef0f0">
+    <h1>Reservation Request</h1>
+    <form action="">
+        <fieldset>
+            <legend>General Information</legend>
+            <label for="a">Arrival Date</label>
+            <input type="date" name="a" id="a"> <br> <br>
+            <label for="s">Nights</label>
+            <input type="number" name="s" id="s" required><br><br>
+            <label for="ss">Adults</label>
+            <select name="ss" id="ss">
+                <option value="ss">1</option>
+                <option value="ss">2</option>
+                <option value="ss">3</option>
+                <option value="ss">4</option>
+                <option value="ss">5</option>
+                <option value="ss">6</option>
+                <option value="ss">More</option>
+            </select><br><br>
+            <label for="aa">Children</label>
+            <select name="aa" id="aa">
+                <option value="aa">1</option>
+                <option value="aa">2</option>
+                <option value="aa">3</option>
+                <option value="aa">4</option>
+                <option value="aa">5</option>
+                <option value="aa">6</option>
+                <option value="aa">More</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend>Preferences</legend>
+            <label for="as">Room Type: </label>
+            <input type="radio" name="as" id="as">
+            Standard
+            <input type="radio" name="as" id="as">
+            Business
+            <input type="radio" name="as" id="as">
+            Suite
+            <br><br>
+            <label for="sa">Bed Type: </label>
+            <input type="radio" name="as" id="as">
+            King
+            <input type="radio" name="as" id="as">
+            Double Bed
+            <br><br> 
+            <input type="checkbox" name="aass" id="aass"> 
+            <label for="aass">Smoking</label>  
+            <br><br>
+            <label for="hd">Food Options: </label>
+            <input type="hd" name="hd" id="hd">
+        </fieldset>
+        <fieldset>
+            <legend>Contact Information</legend>
+            <label for="h">Name: </label>
+            <input type="text" name="h" id="h" required><br><br>
+            <label for="w">Email: </label>
+            <input type="email" name="w" id="w" required ><br><br>
+            <label for="q">Phone: </label>
+            <input type="tel" name="q" id="q" required pattern="[1-9]{1}[0-9]{9}"><br><br>
+            <label for="led">Password: </label>
+            <input type="password" name="led" id="led" >
+        </fieldset>
+        <fieldset>
+            <legend>Distance Information</legend>
+            <label for="amogh">Fuel Meter</label>
+            <meter name="fuel" id="fuel" min="0" max="100" value="79" low="33" high="75" optimum="85"></meter>
+            <br><br>
+            <label for="pro">PROGRESS BAR</label>
+            <progress name="pro" id="pro" max="100" value="90"></progress><br><br>
+            <label for="c">Write About the place of Visit</label>
+            <br>
+            <textarea name="c" id="c" cols="40" rows="4" placeholder="Enter your paragraph"></textarea>
+        </fieldset>
+        <br>
+        <label for="submit"></label>
+        <input type="submit" name="submit" id="submit">    
+    </form> 
+</body>
+</html>
