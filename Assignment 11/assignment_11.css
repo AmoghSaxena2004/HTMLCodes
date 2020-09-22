@@ -1,0 +1,55 @@
+.Super{
+    color: white;
+    background-color: #EA7773;
+    font-family: 'Grenze Gotisch', cursive;
+    text-align: center;
+    font-size: 50px;
+}
+#cbweb{
+    text-decoration: none;
+    font-size: 25px;
+}
+#peter{
+    color: #EA7773;
+    font-size: 40px;
+}
+#parker{
+    text-indent: 100px;
+    letter-spacing: 6px;
+    font-size: 21px;
+}
+#steve{
+    color: #3b83d1;
+    font-size: 40px;
+    text-align: right;
+    text-decoration: overline;
+}
+#rogers{
+    text-align: right;
+    word-spacing: 15px;
+    font-size: 20px;
+    line-height: 40px;
+}
+#tony{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 40px;
+    color: goldenrod;
+    background-color: #0a72c2;
+}
+#stark{
+    font-size: 20px;
+    text-decoration: line-through;
+}
+#line{
+    width: 1250px;
+    height: 2px;
+    background-color: silver;
+}
+#copy{
+    direction: rtl;
+    unicode-bidi: bidi-override;
+    color: #767f87;
+    font-size: 19px;
+    text-align: justify;
+}
