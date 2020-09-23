@@ -1,0 +1,42 @@
+body{
+    background-color: black;
+}
+.hI{
+    margin-top: 0px;
+    margin-bottom: 30px;
+    font-weight: bolder;
+    font-size: 60px;
+    text-align: center;
+    color: #127687;
+    text-shadow: -5px 6px #e6cf3c,
+                 -10px 12px red,
+                 -15px 16px purple;
+}
+.hII{
+    color: green;
+    font-size: 40px;
+    text-decoration:line-through #e8e123;
+}
+.p1{
+    font-size: 17px;
+    color: #127687;
+    font-weight: bold;
+}
+.span1{
+    color: #b50505;
+    font-size: 22px;
+}
+.red{
+    color: red;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+.purple{
+    color: purple;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+.yellow{
+    color: #e6cf3c;
+    font-size: 19px;
+}
