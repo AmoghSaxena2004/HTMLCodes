@@ -1,0 +1,99 @@
+body{
+    background-color: #1BCA9B;
+    font-family: 'Architects Daughter', cursive;
+}
+#web{
+    margin-top:  40px;
+    margin-left: 70px;
+    margin-right: 70px;
+    padding-left: 20px;
+    padding-top: 18px;
+    background-color: white;
+    height: 40px;
+}
+#am{
+    color: black;
+    font-weight: bolder;
+    font-size: 20px;
+    padding-right: 15px;
+}
+.vmc{
+    font-size: 15px;
+    padding-right: 20px;
+}
+#code{
+
+    margin-left: 70px;
+    margin-right: 70px;
+}
+#amogh{
+    border-style: solid;
+    border-width: 15px;
+    border-color: rgb(179, 171, 171);
+    vertical-align: middle;
+}
+#codeII{
+    background-color: white;
+    height: 330px;
+    width: 100px;
+}
+#a{
+    background-color: white;
+    height: 330px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+#s{
+    font-size: 50px;
+    font-weight: bolder;
+    padding-left: 70px;
+    vertical-align: -130px;
+}
+#name{
+    font-size: 20px;
+    padding-left: 70px;
+    vertical-align: -15px;
+}
+#data{
+    font-size: 17px;
+    padding-left: 70px;
+    vertical-align: -15px;
+}
+.view{
+    font-size: 17px;
+    padding-left: 70px;
+    vertical-align: -15px;
+    text-decoration: none;
+    color: #1BCA9B;
+}
+#no{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 7px;
+    padding-left: 7px;
+    border-style: solid;
+    border-color: #1BCA9B;
+    border-width: 1px;
+    border-radius: 4px;
+}
+.about{
+    background-color: white;
+    height: 230px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+#abI{
+    padding-top: 50px;
+    padding-left: 50px;
+}
+.p1{
+    padding-top: 30px;
+    padding-left: 50px;
+}
+#mI{
+    padding-top: 50px;
+    padding-left: 50px;
+}
+.p2{
+    padding-left: 50px;
+}
