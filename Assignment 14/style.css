@@ -1,0 +1,29 @@
+body{
+    background-color: #94e354;
+    border-style: ridge;
+    border-color: #64f5c7;
+    border-width: 30px;
+}
+h1{
+    text-transform: uppercase;
+    text-align: center;
+}
+.line{
+    border-style: double;
+    border-color: #519c14;
+    border-width: 8px;
+}
+p{
+    text-align: center;
+    font-weight: bolder;
+}
+#align{
+    background-color: #94e354;
+    margin-left: 455px;
+}
+img{
+    border-style: dashed;
+    border-color: red;
+    border-radius: 20px;
+    border-width: 10px;
+}
