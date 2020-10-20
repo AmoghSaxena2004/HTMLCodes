@@ -1,0 +1,64 @@
+body{
+    background-color: rgb(212, 208, 208);
+}
+#forminfo{
+    height: 15px;
+    background-color: rgb(7, 102, 180);
+    margin-left: 225px;
+    margin-right: 200px;
+    border-style: solid;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-style: none;
+    border-width: 2px;
+    border-color: rgb(235, 229, 229);
+}
+#forminfo2{
+    height: 200;
+    background-color: white;
+    margin-left: 225px;
+    margin-right: 200px;
+    border-style: solid;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-style: none;
+    border-width: 2px;
+    border-color: rgb(235, 229, 229);
+}
+#name{
+    padding-left: 30px;
+    font-size: 55px;
+    font-family: 'Sansita Swashed', cursive;
+}
+#ab{
+    padding-left: 30px;
+    text-align: justify;
+    padding-right: 30px;
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 19px;
+}
+#foot1{
+    font-weight: 500;
+    color: rgba(0,0,0,0.66);
+    font-size: 15px;
+    margin-left: 505px;
+}
+#another{
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+    border-radius: 4px;
+    background-color: rgb(212, 208, 208);
+    border-style: solid;
+    border-width: 2px;
+    font-weight: bolder;
+    font-size: 20px;
+    color: rgb(122, 6, 126);
+    margin-left: 30px;
+}
+#another:hover{
+    text-decoration: underline rgb(16, 172, 36);
+}
+#name1{
+    font-weight: bold;
+}
