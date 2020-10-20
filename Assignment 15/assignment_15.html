@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+        <title>Admission Form </title>
+    </head>
+    <body>
+        <img src="./File.png" alt="" height="250" id="logo">
+        <br><br><br>
+        <div id="forminfo">
+        </div>
+        <div id="forminfo2"><br>
+            <span id="name">Admission Form</span><br>
+            <p id="ab">This is a form for taking admission in the Coding Blocks. Fill all the details that are asked and you'll get a call regarding further instructions about fees payment etc.</p>
+        <br>
+        </div>
+        <br><br><br>
+        <form action="./Next_Page.html">
+            <div class="form">
+                <span id="q1">Student's Name</span><br><br>
+                <label for="info_name" id="name1"></label>
+                <input type="text" name="name" id="info_name" placeholder="Write Your Name" required>
+            </div><br><br><br>
+            <div class="form">
+                <span id="q1">Student's Phone Number</span><br>
+                <span id="IDK">
+                    <label for="info_name"></label>
+                    <input type="tel" name="" id="info_name" pattern="[1-9]{1}[0-9]{9}" placeholder="Valid Mobile Number" required>
+                </span>
+            </div><br><br><br>
+            <div class="form">
+                <span id="q1">Student's Email I'd</span><br>
+                <span id="sch_name">
+                    <input type="email" name="" id="info_name" placeholder="wxyz@gmail.com" required>
+                </span>
+            </div><br><br><br>
+            <div class="form">
+                <span id="q1">Are you in School or College?</span><br>
+                <span class="q2">
+                    <select name="sch_col" id="q2" required>
+                        <option value="school"> School</option>
+                        <option value="college">College</option>
+                    </select>
+                </span>
+            </div><br><br><br>
+            <div class="form">
+                <span id="q1">School/College Name</span><br>
+                <span id="sch_name">
+                    <label for="name1"></label>
+                    <input type="text" id="info_name" placeholder="Name of Your SCHOOL" required>
+                </span>
+            </div><br><br><br>
+            <div class="form">
+                <span id="q1">Gender</span><br>
+                <span id="options" >
+                    <label for="op1">Male</label>
+                    <input type="radio" name="gender" id="op1">
+                    <label for="op2">|| Female</label>
+                    <input type="radio" name="gender" id="op2">
+                    <label for="op3">|| Others</label>
+                    <input type="radio" name="gender" id="op3">
+               </span>
+            </div><br><br><br>
+            <div class="form">
+                <span id="q1">Course You Want To Learn</span><br>
+                <span id="options">
+                    <label for="option">Web Development</label>
+                    <input type="radio" name="course" id="option">
+                    <label for="option1">|| Python</label>
+                    <input type="radio" name="course" id="option1">
+                    <label for="option2">|| JavaScript</label>
+                    <input type="radio" name="course" id="option2">
+                    <label for="option3">|| C++</label>
+                    <input type="radio" name="course" id="option3">
+                    <label for="option4">|| Java</label>
+                    <input type="radio" name="course" id="option4">
+                </span><br>
+            </div><br><br>
+            <span id="sub">
+                <button onclick="reload" id="submit">Submit</button>
+            </span>    
+        </form><br><br>
+        <footer>
+            <span class="foot">Provide the correct information.</span><br>
+            <span class="foot">Do not submit any passwords until asked.</span><br><br><br>
+            <span id="foot1">This form was made by Amogh Saxena.</span>
+        </footer><br><br>
+</body>
+</html>
