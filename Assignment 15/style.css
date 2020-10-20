@@ -1,0 +1,158 @@
+body{
+    background-color: rgb(212, 208, 208);
+}
+#logo{
+    background-color: white;
+    padding-right: 80px;
+    margin-left: 225px;
+    margin-top: 40px;
+    border-style: solid;
+    border-color: rgb(235, 229, 229);
+    border-radius: 15px;
+}
+#logo:hover{
+    box-shadow: 9px 9px 20px 0px rgb(11, 144, 197);
+}
+#forminfo{
+    height: 15px;
+    background-color: rgb(7, 102, 180);
+    margin-left: 225px;
+    margin-right: 200px;
+    border-style: solid;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-style: none;
+    border-width: 2px;
+    border-color: rgb(235, 229, 229);
+}
+#forminfo2{
+    height: 200;
+    background-color: white;
+    margin-left: 225px;
+    margin-right: 200px;
+    border-style: solid;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-style: none;
+    border-width: 2px;
+    border-color: rgb(235, 229, 229);
+}
+#forminfo2:hover{
+    box-shadow: 9px 9px 20px 0px rgb(11, 144, 197);
+}
+#name{
+    padding-left: 30px;
+    font-size: 55px;
+    font-family: 'Sansita Swashed', cursive;
+}
+#ab{
+    padding-left: 30px;
+    text-align: justify;
+    padding-right: 30px;
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 19px;
+}
+.form{
+    height: 150px;
+    margin-left: 225px;
+    margin-right: 200px;  
+    background-color: white;
+    border-style: solid;
+    border-radius: 15px;
+    border-top-style: none;
+    border-width: 2px;
+    border-color: rgb(235, 229, 229);
+}
+.form:hover{
+    box-shadow: 9px 9px 20px 0px rgb(11, 144, 197);
+}
+#q1{
+    vertical-align: -45px;
+    padding-left: 30px;
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 25px;
+    word-spacing: 4px;
+}
+#name1{
+    padding-left: 30px;
+}
+input#info_name{
+    border-top-style: none;
+    border-right-style: none;
+    border-left-style: none;
+    width: 300px;
+    height: 30px;
+    font-family: 'Fredoka One', cursive;
+}
+#info_name:focus{
+    border-style: solid;
+    border-color: rgb(149, 37, 134);
+    border-width: 5px;
+}
+.q2{
+    vertical-align: -25px;
+    padding-left: 30px;
+}
+select#q2{
+    height: 50px;
+    width: 110px;
+    font-family: 'Fredoka One', cursive;
+}
+select#q2:focus{
+    border-style: groove;
+    border-width: 5px;
+    border-color: forestgreen;
+}
+#sch_name{
+    vertical-align: -25px;
+    padding-left: 30px;
+}
+input#sname{
+    height: 50px;
+    width: 110px;
+    font-family: 'Fredoka One', cursive;
+}
+#IDK{
+    vertical-align: -20px;
+    padding-left: 30px;
+}
+#options{
+    vertical-align: -30px;
+    padding-left: 30px;
+}
+#submit{
+    margin-left: 225px;
+    padding-top: 0px;
+    padding-right: 20px;
+    padding-bottom: 0px;
+    padding-left: 20px;
+    letter-spacing: 1.5px;
+    font-family: cursive;
+    font-weight: 600;
+    font-size: 14px;
+    color: white;
+    height: 42px;
+    width: 100px;
+    border-radius: 10px;
+    border-style: groove;
+    border-color: rgb(13, 111, 202);
+    border-width: 5px;
+    background-color: rgb(144, 143, 143);
+}
+#submit:hover{
+    background-color: rgb(26, 179, 12);
+    text-decoration: underline rgb(240, 0, 0);
+    box-shadow: 4px 3px 10px 0px rgb(180, 15, 172);
+}
+.foot{
+    font-weight: 500;
+    color: rgba(0,0,0,0.66);
+    font-size: 14px;
+    margin-left: 225px;
+}
+#foot1{
+    font-weight: 500;
+    color: rgba(0,0,0,0.66);
+    font-size: 15px;
+    margin-left: 505px;
+}
