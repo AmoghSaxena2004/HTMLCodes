@@ -1,0 +1,111 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.heading{
+    margin-left: 47px;
+    background-image: url(./Tiger\ heading.jpg);
+    height: 600px;
+    background-repeat: no-repeat;
+}
+#tigerName{
+    text-decoration: underline;
+    background-color: black;
+    color: white;
+    margin: 0px;
+    text-align: center;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    position: sticky;
+    top: 0px;
+    height: 45px;
+}
+.about .head{
+    padding-top: 7px;
+    padding-bottom: 7px;
+    text-decoration: underline;
+    text-align: center;
+    background-color: rgb(17, 72, 175);
+    font-weight: bolder;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: sticky;
+    top: 58px;
+}
+.about .info{
+    padding-top: 0.1px;
+    padding-bottom: 5px;
+    text-align: justify;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: maroon;
+    font-size: 20px;
+    color: rgb(149, 233, 24);
+    font-weight: 500;
+}
+.tigerInIndia .head1{
+    background-color: hotpink;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    text-decoration: underline;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: sticky;
+    top: 100px;
+}
+.tigerInIndia .info2{
+    padding-top: 0.1px;
+    padding-bottom: 5px;
+    text-align: justify;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color:rgb(230, 128, 80);
+    font-size: 20px;
+    color: rgb(128, 8, 118);
+    font-weight: 600;
+}
+li{
+    margin-left: 30px;
+}
+/* .buttons{
+    position: sticky;
+    top: 990px;
+} */
+.buttons .fbButton{
+    position: fixed;
+    bottom: 20px;
+    right: 150px;
+    font-size: 20px;
+    height: 40px;
+    width: 120px;
+    color: rebeccapurple;
+    background-color: rgb(66, 192, 129);
+    border-radius: 30px;
+}
+.buttons .emButton{
+    position: fixed;
+    color: rebeccapurple;
+    background-color: rgb(66, 192, 129);
+    border-radius: 30px;
+    font-size: 20px;
+    bottom: 20px;
+    right: 20px;
+    height: 40px;
+    width: 110px;
+}
+#email{
+    color: rebeccapurple;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+a:visited{
+    color: rebeccapurple;
+}
