@@ -1,0 +1,195 @@
+body{
+    margin-top: 0px;
+    padding-top: 0px;
+    background-color: #1d2b34;
+    height: 2400px;
+}
+h1{
+    margin-top: -21px;
+    text-align: center;
+    color: lavender;
+    font-family: 'Bungee Shade', cursive;
+    font-size: 50px;
+}
+.cat1{
+    display: flex;
+}
+.cat1 img{
+    border-radius: 15px;
+    width: 550px;
+    box-shadow: 10px 10px 10px 0px blueviolet;
+    left: 70px;
+    top: 120px;
+    position: absolute;
+    /* transition-property: top left box-shadow;
+    transition-timing-function: ease-out;
+    transition-delay: 300ms; */
+}
+.cat1:hover img{
+    transform: rotate(360deg);
+    position: absolute;
+    left: 50px;
+    top: 135px;
+    transition: top left;
+    transition-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
+    box-shadow: 0px 0px 20px 10px rgb(240, 227, 227);
+}
+.cat1 p{
+    position: absolute;
+    top: 125px;
+    left: 660px;
+    right: 20px;
+    text-align: justify;
+    font-size: 25px;
+    color: transparent;
+}
+.cat1:hover p{
+    color: white;
+    font-family: 'Fondamento', cursive;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 30px;
+}
+.cat2{
+    display: flex;
+}
+.cat2 img{
+    border-radius: 15px;
+    width: 550px;
+    box-shadow: 10px 10px 10px 0px blueviolet;
+    left: 70px;
+    top: 570px;
+    position: absolute;
+    /* transition-property: top left box-shadow;
+    transition-timing-function: ease-out;
+    transition-delay: 300ms; */
+}
+.cat2:hover img{
+    transform: rotate(360deg);
+    position: absolute;
+    left: 50px;
+    top: 590px;
+    transition: top left;
+    transition-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
+    box-shadow: 0px 0px 20px 10px rgb(240, 227, 227);
+}
+.cat2 p{
+    position: absolute;
+    top: 615px;
+    left: 660px;
+    right: 20px;
+    text-align: justify;
+    font-size: 25px;
+    color: transparent;
+}
+.cat2:hover p{
+    color: white;
+    font-family: 'Fondamento', cursive;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 30px;
+}
+.cat3{
+    display: flex;
+}
+.cat3 img{
+    height: 500px;
+    border-radius: 15px;
+    width: 550px;
+    box-shadow: 10px 10px 10px 0px blueviolet;
+    left: 70px;
+    top: 1220px;
+    position: absolute;
+    /* transition-property: top left box-shadow;
+    transition-timing-function: ease-out;
+    transition-delay: 300ms; */
+}
+.cat3:hover img{
+    transform: rotate(360deg);
+    position: absolute;
+    left: 50px;
+    top: 1240px;
+    transition: top left;
+    transition-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
+    box-shadow: 0px 0px 20px 10px rgb(240, 227, 227);
+}
+.cat3 p{
+    position: absolute;
+    top: 1280px;
+    left: 660px;
+    right: 20px;
+    text-align: justify;
+    font-size: 25px;
+    color: transparent;
+}
+.cat3:hover p{
+    color: white;
+    font-family: 'Fondamento', cursive;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 30px;
+}
+.cat4{
+    display: flex;
+}
+.cat4 img{
+    border-radius: 15px;
+    width: 550px;
+    box-shadow: 10px 10px 10px 0px blueviolet;
+    left: 70px;
+    top: 1850px;
+    position: absolute;
+    /* transition-property: top left box-shadow;
+    transition-timing-function: ease-out;
+    transition-delay: 300ms; */
+}
+.cat4:hover img{
+    transform: rotate(360deg);
+    position: absolute;
+    left: 50px;
+    top: 1870px;
+    transition: top left;
+    transition-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
+    box-shadow: 0px 0px 20px 10px rgb(240, 227, 227);
+}
+.cat4 p{
+    position: absolute;
+    top: 1860px;
+    left: 660px;
+    right: 20px;
+    text-align: justify;
+    font-size: 25px;
+    color: transparent;
+}
+.cat4:hover p{
+    position: absolute;
+    color: white;
+    font-family: 'Fondamento', cursive;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 30px;
+}
+.foot{
+    position: absolute;
+    top: 2350px;
+    left: 480px;
+    width: 350px;
+    height: 90px;
+    border-style: ridge;
+    border-radius: 20px;
+}
+.foot:hover{
+    box-shadow: -5px -5px 30px 5px red, 5px 5px 30px 5px blue;;
+}
+.foot h1{
+    font-family: cursive;
+    font-size: 30px;
+    padding-top: 15px;
+}
+.foot h2{
+    padding-left: 30px;
+    color: transparent;
+}
+.foot:hover h1{
+    color: transparent;
+}
+.foot:hover h2{
+    margin-top: -25px;
+    color: white;
+}
